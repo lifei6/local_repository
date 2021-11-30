@@ -151,6 +151,7 @@ def kaTong(img0):
 
 
 if __name__ == '__main__':
+    # ！！！图片位置不能包含中文
     # 读取图片转为灰度图
     img0 = cv2.imread('./imagedata/meinv.png')
     img1 = cv2.cvtColor(img0, cv2.COLOR_BGR2GRAY)

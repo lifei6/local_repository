@@ -1,0 +1,13 @@
+1.正则解析
+<div class="thumb">
+
+<a href="/article/124656426" target="_blank">
+<img src="//pic.qiushibaike.com/system/pictures/12465/124656426/medium/YWTD4DHSC94XFCP9.jpg" alt="糗事#124656426" class="illustration" width="100%" height="auto">
+</a>
+</div>
+ex = '<div class="thumb">.*?<img src="(.*?)" alt=.*?</div>'
+2.bs4
+https://www.pearvideo.com/videoStatus.jsp?contId=1744044&mrd=0.7910016731101759
+https://www.pearvideo.com/videoStatus.jsp?contId=1744042&mrd=0.21641494809787765
+
+//*[@id="gzlist"]

@@ -28,8 +28,8 @@ userName_tag = bro.find_element_by_id('u')
 password_tag = bro.find_element_by_id('p')
 
 # 输入账号密码
-userName_tag.send_keys('772404387')
-password_tag.send_keys('LiFei18573743375')
+userName_tag.send_keys('******')
+password_tag.send_keys('******')
 
 # 定位到登入按键，点击登入按键
 login_btn = bro.find_element_by_id('login_button')
